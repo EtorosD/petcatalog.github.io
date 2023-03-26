@@ -130,6 +130,14 @@ figure {
     left: 35%;
 }
 
+.first {
+    margin-left: 30px;
+}
+
+.pic {
+    padding: 20px;  
+}
+
 
 
   @media screen and (min-width: 320px) {
@@ -299,6 +307,23 @@ figure {
         left: 20%;
         width: 20%;
         font-size: 18px;
+    }
+  }
+
+  @media screen and (min-width: 320px) {
+    .first {
+        margin-left: 0px;
+    }
+    .pic {
+        padding: 0px;  
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    .first {
+        margin-left: 30px;
+    }
+    .pic {
+        padding: 20px;  
     }
   }
  
